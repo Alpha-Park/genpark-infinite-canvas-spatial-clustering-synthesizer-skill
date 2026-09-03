@@ -1,0 +1,36 @@
+{
+  "name": "genpark-infinite-canvas-spatial-clustering-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Infinite whiteboard spatial clustering engine and semantic theme aggregator for brainstorming canvas agents.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "genpark",
+  "category": "design-ai",
+  "tags": [
+    "miro-assist",
+    "figjam-ai",
+    "infinite-canvas",
+    "spatial-clustering",
+    "mindmap-ai"
+  ],
+  "inputs": {
+    "sticky_notes": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "cluster_session_id": {
+      "type": "string"
+    },
+    "clusters": {
+      "type": "array"
+    },
+    "synthesized_themes_count": {
+      "type": "integer"
+    },
+    "canvas_view_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
